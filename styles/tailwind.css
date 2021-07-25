@@ -4,6 +4,29 @@
 
 /* Custom Tailwind classes go here */
 @layer components {
+    .headings1 {
+        @apply text-center text-blue-400 text-5xl my-8
+    }
+
+    .headings2 {
+        @apply flex justify-center mt-4 text-blue-400 text-3xl
+    }
+
+    .navigator {
+        @apply p-4 m-2 mx-24
+    }
+
+    .footings{
+        @apply bg-blue-700
+        text-white text-center fixed inset-x-0 bottom-0
+    }
+
+    .tables{
+        @apply border border-green-600
+    }
+    .hovers{
+        @apply no-underline hover:underline
+    }
 
     .custom-tailwind {
         @apply text-white bg-blue-500
